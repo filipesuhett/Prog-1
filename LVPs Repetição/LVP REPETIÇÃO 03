@@ -1,0 +1,15 @@
+#Faça um Programa que leia números até que o usuário não queira mais digitar os números. No final escrever a soma dos valores lidos. (o usuário digitará a letra s para continuar informando dados e n quando quiser parar)
+
+def main():
+    resp = input("") .upper()
+    soma = 0
+  
+    while (resp == "S"):
+        nume = int(input(""))
+        resp = input("").upper()
+        soma = soma + nume 
+    print(soma)
+    return 0
+
+if __name__ == "__main__":
+  main()
