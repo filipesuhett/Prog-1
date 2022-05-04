@@ -59,3 +59,37 @@ def main():
   return 0
 if __name__ == "__main__":
   main()
+
+
+#Jeito certo
+
+def main():
+    soma = 0
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    d = int(input())
+
+    if (a > b and a > c and a > d):
+        soma += a
+    elif (b > c and b > d):
+        soma += b
+    elif (c > d):
+        soma += c
+    else:
+        soma += d
+    
+    if (a < b and a < c and a < d):
+        soma += a
+    elif (b < c and b < d):
+        soma += b
+    elif (c < d):
+        soma += c
+    else:
+        soma += d
+    print(soma)
+
+    return 0
+
+if __name__ == "__main__":
+    main()
