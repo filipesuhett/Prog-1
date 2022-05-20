@@ -26,12 +26,12 @@ def main():
       if (altura > maioralt):
         maioralt = altura
       elif (altura < menoralt):
-        menoralt = altura 
+        menoralt = altura
   
-  print(maioralt)
-  print(menoralt)
-  print(somam/mediam)
-  print(quanth)
+  print(f'A Maior Altura é: {maioralt:.2f}')
+  print(f'A Menor Altura é: {menoralt:.2f}')
+  print(f'A Média da Altura de todas as mulheres é: {somam/mediam:.2f}')
+  print(f'A Quantida de Homens é: {quanth:.2f}')
   
   return 0
 
